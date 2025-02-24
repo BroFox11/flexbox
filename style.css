@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 1;
+}
+
+body {
+    font-family: arial, Arial, Helvetica, sans-serif;
+}
+
+.item {
+flex-grow: 1;
+    height: 100px;
+    background-color: #254de4;
+    color: #fff;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-container {
+    display: flex;
+    background-color: #f4f4f4;
+}
+
+
